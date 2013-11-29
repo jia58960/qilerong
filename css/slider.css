@@ -192,5 +192,5 @@ Author:Manh
 }
 #slider-frame {
     background: url("../assets/img/slider-bg.png") no-repeat center bottom;
-    height: 265px;
+    height: 268px;*height:280px !important;
 }

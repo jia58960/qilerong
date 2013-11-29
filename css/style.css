@@ -18,13 +18,14 @@ Import fonts
 
 /* General body settings */
 body { 
-  color: #000; 
+  color: #555555; 
   font-size:13px; 
   direction: ltr;
   margin: 0 !important;
   padding: 0 !important;
   font-family: 'microsoft yahei' !important;
   overflow-x: hidden;
+  background: #f5f5f5;
 }
 
 /*********************
@@ -130,6 +131,9 @@ ie8 & ie9 modes
 /***
 General More Link
 ***/
+a {
+ color: #555;
+}
 a.more {
   font-size: 13px;
   font-weight: 400 !important;
@@ -143,8 +147,9 @@ a.more i {
 /***
 Fix link outlines after click
 ***/
-a,a:focus, a:hover, a:active {
+a:focus, a:hover, a:active {
   outline: 0;
+  color: #F94314;
 }
 
 /***
@@ -453,7 +458,7 @@ Header and header elements.
 	z-index: 999;
 	position: relative;
 	/* box-shadow: 0 1px 3px #ddd;	 */
-	background: #fff;
+	background: #f5f5f5;
 	filter:none;
 	border: none; 
 	padding-left: 0;
@@ -553,7 +558,7 @@ Header and header elements.
     height: 50px;
     padding: 0;
     width: 100%;
-	background:#CA0705;
+	background:#E0B943;
 	filter: none !important;
 }
 .navbar .brand {
@@ -575,7 +580,7 @@ Header and header elements.
 .header .nav li.active > a,
 .header .nav li.active:hover > a {
 	border-radius: 0;
-	background:#A30A0F !important;
+	background:#A08127 !important;
 	text-shadow: none;
 	box-shadow: none !important;
 }
@@ -2340,7 +2345,8 @@ Input icons
 
 
 .input-icon input {
-   padding-left: 33px !important;
+    padding-left: 33px;*padding-left:0px !important;
+	
 }
 
 .input-icon i {

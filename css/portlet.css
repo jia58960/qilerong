@@ -36,9 +36,11 @@ Portlets
   float: left;
   margin-top: 5px;
   display: inline-block !important;
-  font-size: 13px;
+  color:#ffffff;
+  font-size:16px;
+  margin-left:5px;
   margin-right: 5px;
-  color: #666;
+  
 }
 
 .portlet.blue > .portlet-title .caption, .portlet-title.blue .caption, 
@@ -69,8 +71,7 @@ Portlets
  {
   display: inline-block;
   padding: 0;
-  margin: 0;
-  margin-top: 6px;
+  margin: 3px 8px 0;
   float: right;
 }
 
@@ -78,6 +79,7 @@ Portlets
   display: inline-block;
   height: 16px;
   margin-left:5px;
+  color: #FFFFFF;
 }
 
 .portlet-title .dropdown-menu i {
@@ -136,7 +138,7 @@ Portlets
 }
 
 .portlet-body.red, .portlet.red {
-  background-color: #CA0705 !important;
+  background-color: #E0B943 !important;
 }
 
 .portlet-body.yellow, .portlet.yellow {
@@ -190,11 +192,11 @@ Portlets
 }
 
 .portlet.box.red .portlet-title {
-  background-color: #CA0705;
+  background-color: #E0B943;
 } 
 
 .portlet.box.red {  
-   border: 1px solid #ef8476;
+   border: 1px solid #E0B943;
    border-top: 0;
 }
 
